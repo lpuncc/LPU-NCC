@@ -99,7 +99,7 @@ app.post("/api/register", async (req, res) => {
       return res.status(400).json({ message: "Registration number already exists." });
     }
     console.error("Error saving registration:", error);
-    res.status(500).json({ message: "Internal Server Error" });
+    res.status(500).json({ message: "Registration number already exists." });
   }
 });
 
