@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: 'https://lpunccstaticweb123.z29.web.core.windows.net/registration-system/register.html',
+    origin: 'https://lpunccstaticweb123.z29.web.core.windows.net/registration-system/register.js',
     methods: ["GET", "POST", "DELETE"],
     credentials: false
   }));
